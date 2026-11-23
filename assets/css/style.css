@@ -245,7 +245,7 @@ a.card:hover { text-decoration: none; border-color: var(--faint); transform: tra
 }
 
 /* Art strip (home) */
-.art-strip { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+.art-strip { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
 .art-strip a { border-radius: var(--radius-sm); overflow: hidden; aspect-ratio: 3 / 4; border: 1px solid var(--border); }
 .art-strip img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
 .art-strip a:hover img { transform: scale(1.05); }
