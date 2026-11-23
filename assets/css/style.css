@@ -27,6 +27,8 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
+  /* Keep the gentle logo float even when the system asks for less motion. */
+  .hero-mark img { animation: float 7s ease-in-out infinite !important; }
 }
 
 body {
