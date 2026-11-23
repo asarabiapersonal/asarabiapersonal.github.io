@@ -151,6 +151,11 @@ p  { margin: 0 0 1em; }
 .hero h1 .accent { color: var(--accent-2); white-space: nowrap; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
 .hero-mark { display: grid; place-items: center; }
+.hero .container.hero-center { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0; }
+.hero-center .hero-mark { margin-bottom: 28px; }
+.hero-center .hero-mark img { width: min(220px, 55vw); }
+.hero-center .hero-actions { justify-content: center; margin-top: 8px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .hero-mark img {
   width: min(260px, 70%);
   height: auto;
