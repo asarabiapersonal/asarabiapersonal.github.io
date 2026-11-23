@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog · Adam Sarabia</title>
+  <meta name="description" content="Notes on projects and ideas.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="" width="24" height="26">Adam Sarabia</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html" aria-current="page">Blog</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="music.html">Music</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container narrow">
+      <header class="page-head">
+        <p class="eyebrow">Blog</p>
+        <h1>Notes &amp; progress</h1>
+        <p class="lede">Projects, ideas, and thoughts as they happen.</p>
+      </header>
+
+      <!-- ================================================================
+           NEW POST: copy an <article> block, paste it ABOVE the newest one,
+           and change the id, date, title, and text.
+           ================================================================ -->
+
+      <article class="post" id="basic-features-of-image-recognition">
+        <time datetime="2025-11-26">Nov 26, 2025</time>
+        <h2><a href="#basic-features-of-image-recognition">Basic features of image recognition</a></h2>
+        <p>PyTorch machine learning, with Streamlit to display the data and the interface. This project currently sorts images into cats or dogs. It was trained on 20k cat images and 20k dog images.</p>
+        <p>Eventually I plan to make the training more generic, so it works with other images and different numbers of categories.</p>
+        <div class="embed">
+          <iframe src="https://www.youtube-nocookie.com/embed/51FIJ_pHA_Q" title="Basic Image Recognition Trainer demo" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="post-footer">Project page: <a href="projects.html#image-recognition-trainer">Basic Image Recognition Trainer &rarr;</a></p>
+      </article>
+
+      <article class="post" id="machine-learning-learning">
+        <time datetime="2025-11-22">Nov 22, 2025</time>
+        <h2><a href="#machine-learning-learning">Machine learning… learning</a></h2>
+        <p>I have the basics of the network working. It can successfully train on and predict pictures of dogs and cats.</p>
+        <p>Really, though, it's generic enough to sort any objects you train it on, as long as the data is formatted correctly.</p>
+        <div class="figures">
+          <figure>
+            <a href="assets/img/projects/image-classifier/whiteboard.jpg" data-lightbox="ml-post">
+              <img src="assets/img/projects/image-classifier/whiteboard.jpg" alt="Whiteboard notes planning the model and the training loop" width="293" height="391" loading="lazy">
+            </a>
+          </figure>
+          <figure>
+            <a href="assets/img/projects/image-classifier/training-code.png" data-lightbox="ml-post">
+              <img src="assets/img/projects/image-classifier/training-code.png" alt="The PyTorch training loop in VS Code" width="495" height="341" loading="lazy">
+            </a>
+          </figure>
+        </div>
+      </article>
+
+      <article class="post" id="intentions">
+        <time datetime="2025-11-10">Nov 10, 2025</time>
+        <h2><a href="#intentions">Intentions</a></h2>
+        <p>I plan to use this part of my website to show projects, ideas, and thoughts, in a more casual space.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span id="year">2026</span> Adam Sarabia</span>
+      <nav aria-label="Footer">
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+        <a href="video.html">Video</a>
+        <a href="music.html">Music</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>

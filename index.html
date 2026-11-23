@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adam Sarabia · code, art, video &amp; music</title>
+  <meta name="description" content="Programming projects, paintings, drawings, video, and music.">
+  <meta property="og:title" content="Adam Sarabia">
+  <meta property="og:description" content="Programming projects, paintings, drawings, video, and music.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="" width="24" height="26">Adam Sarabia</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="music.html">Music</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Code · Paint · Draw · Film · Music</p>
+          <h1>Making things with code <span class="accent">and by hand.</span></h1>
+          <!-- EDIT ME: a sentence or two about you. -->
+          <p class="lede">This is where I keep my programming projects, along with my paintings, drawings, videos, and music.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="projects.html">See projects <span class="arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="btn" href="art.html">Browse the art</a>
+          </div>
+        </div>
+        <div class="hero-mark">
+          <img src="assets/img/logo.svg" alt="" width="260" height="281">
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured project -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured project</h2>
+          <a href="projects.html">All projects &rarr;</a>
+        </div>
+        <a class="card feature" href="projects.html#image-recognition-trainer">
+          <div class="feature-media">
+            <img src="assets/img/projects/image-classifier/training-code.png" alt="PyTorch training loop code open in VS Code" width="495" height="341">
+          </div>
+          <div class="card-body">
+            <span class="badge">In progress</span>
+            <h3 style="margin-top:14px;font-size:1.6rem">Basic Image Recognition Trainer</h3>
+            <p class="muted">A convolutional neural network built in PyTorch that learns to tell cats from dogs, trained on 40,000 images, with a Streamlit interface for training and predictions.</p>
+            <ul class="tags">
+              <li>Python</li><li>PyTorch</li><li>Streamlit</li><li>CNN</li>
+            </ul>
+            <span style="color:var(--accent);font-weight:600">Read about it &rarr;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Latest posts -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>From the blog</h2>
+          <a href="blog.html">All posts &rarr;</a>
+        </div>
+        <div class="grid grid-3">
+          <a class="card post-card" href="blog.html#basic-features-of-image-recognition">
+            <div class="card-body">
+              <time datetime="2025-11-26">Nov 26, 2025</time>
+              <h3>Basic features of image recognition</h3>
+              <p class="muted">PyTorch machine learning with Streamlit for the data and the interface.</p>
+            </div>
+          </a>
+          <a class="card post-card" href="blog.html#machine-learning-learning">
+            <div class="card-body">
+              <time datetime="2025-11-22">Nov 22, 2025</time>
+              <h3>Machine learning… learning</h3>
+              <p class="muted">The network can train and predict. Cats vs. dogs, for now.</p>
+            </div>
+          </a>
+          <a class="card post-card" href="blog.html#intentions">
+            <div class="card-body">
+              <time datetime="2025-11-10">Nov 10, 2025</time>
+              <h3>Intentions</h3>
+              <p class="muted">What this part of the site is for.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Art preview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Paintings &amp; drawings</h2>
+          <a href="art.html">See the gallery &rarr;</a>
+        </div>
+        <div class="art-strip">
+          <a href="art.html#paintings"><img src="assets/img/art/paintings/painting-03.jpg" alt="Painting: swirling abstract in blues and peach" loading="lazy" width="800" height="1066"></a>
+          <a href="art.html#drawings"><img src="assets/img/art/drawings/drawing-04.jpg" alt="Drawing: flowing graphite shapes" loading="lazy" width="800" height="1066"></a>
+          <a href="art.html#paintings"><img src="assets/img/art/paintings/painting-01.png" alt="Painting: grid of painted eyes and open mouths" loading="lazy" width="565" height="800"></a>
+          <a href="art.html#drawings"><img src="assets/img/art/drawings/drawing-03.jpg" alt="Drawing: mask-like shape shaded in blue and black" loading="lazy" width="600" height="800"></a>
+          <a href="art.html#paintings"><img src="assets/img/art/paintings/painting-12.jpg" alt="Painting: a face with a blue eye emerging from swirls" loading="lazy" width="720" height="1278"></a>
+          <a href="art.html#drawings"><img src="assets/img/art/drawings/drawing-05.jpg" alt="Drawing: upturned face sketched in pencil" loading="lazy" width="800" height="1066"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Watch & listen -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><h2>Watch &amp; listen</h2></div>
+        <div class="grid grid-2">
+          <a class="card tile" href="video.html">
+            <span class="tile-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </span>
+            <span><h3>Video</h3><p>Night shots, flyovers, and Virginia sights.</p></span>
+          </a>
+          <a class="card tile" href="music.html">
+            <span class="tile-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M9 17.5a2.5 2.5 0 1 1-2-2.45V5l12-2v11.5a2.5 2.5 0 1 1-2-2.45V7.2L9 8.6z"/></svg>
+            </span>
+            <span><h3>Music</h3><p>Listen to the album <em>Symptoms</em>.</p></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span id="year">2026</span> Adam Sarabia</span>
+      <nav aria-label="Footer">
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+        <a href="video.html">Video</a>
+        <a href="music.html">Music</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>

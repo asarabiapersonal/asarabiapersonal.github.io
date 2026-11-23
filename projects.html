@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · Adam Sarabia</title>
+  <meta name="description" content="Programming projects: what they do, how they're built, and what's next.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="" width="24" height="26">Adam Sarabia</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="music.html">Music</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <header class="page-head">
+        <p class="eyebrow">Projects</p>
+        <h1>Things I'm building</h1>
+      </header>
+
+      <!-- ================================================================
+           GITHUB PROJECTS: newest at the top, with the pinned project first.
+           To add one, copy an <article class="card gh-card"> block, paste it
+           right below the pinned one, and change the text, images, and links.
+           To pin a different project, move its block to the top and move the
+           <span class="badge">Pinned</span> line into it.
+           ================================================================ -->
+      <section class="gh-section" id="github" aria-labelledby="github-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">On GitHub</p>
+            <h2 id="github-title">3D training simulators</h2>
+          </div>
+          <a href="https://github.com/asarabiapersonal">All repositories &rarr;</a>
+        </div>
+
+        <div class="gh-list">
+          <article class="card gh-card" id="solarity-conduit">
+            <a class="gh-media" href="assets/img/projects/conduit-bending/bend.png" data-lightbox="conduit">
+              <img src="assets/img/projects/conduit-bending/bend.png" alt="Bending a 3-point saddle on a 3/4-inch EMT hand bender, with the bending math panel open" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="card-body">
+              <div class="project-head"><span class="badge badge-pin">Pinned</span><time datetime="2026-11">Nov 2026</time></div>
+              <h3>Solarity Conduit</h3>
+              <p class="gh-sub">Conduit bending workshop · 3/4″–2″ EMT</p>
+              <p class="muted">A 3D, browser-based trainer for marking, placing, and bending EMT conduit, then fitting it to real field jobs on a work wall.</p>
+              <ul class="points">
+                <li>Floor hand bender for 3/4″–1-1/4″ and an electric one-shot bender for 1-1/2″–2″, with deducts, gain, and springback</li>
+                <li>Mark → Place → Bend → Inspect, with lessons from 90° stubs to 4-point saddles, graded against the true bent geometry</li>
+                <li>Six field jobs: lay out on the wall, cut to length, install, and get graded on the fit</li>
+              </ul>
+              <div class="gh-thumbs">
+                <a href="assets/img/projects/conduit-bending/mark.png" data-lightbox="conduit"><img src="assets/img/projects/conduit-bending/mark.png" alt="Marking a 90-degree stub-up with the tape hooked on the end" width="1600" height="900" loading="lazy"></a>
+                <a href="assets/img/projects/conduit-bending/field-job.png" data-lightbox="conduit"><img src="assets/img/projects/conduit-bending/field-job.png" alt="A 4-point saddle over a wireway, installed between the panel and the box" width="1600" height="900" loading="lazy"></a>
+              </div>
+              <ul class="tags"><li>JavaScript</li><li>Three.js</li><li>3D</li><li>Trade training</li></ul>
+              <div class="gh-links">
+                <a class="btn btn-primary" href="https://github.com/asarabiapersonal/Solarity-Conduit">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card gh-card" id="sewing-simulator">
+            <a class="gh-media" href="assets/img/projects/sewing-workshop/sewing.png" data-lightbox="sewing">
+              <img src="assets/img/projects/sewing-workshop/sewing.png" alt="Sewing a straight seam on floral quilting cotton, with the machine status and stitch settings panels" width="1600" height="900" loading="lazy">
+            </a>
+            <div class="card-body">
+              <div class="project-head"><time datetime="2026-11">Nov 2026</time></div>
+              <h3>Sewing Simulator</h3>
+              <p class="gh-sub">Sewing workshop · Singer M1500</p>
+              <p class="muted">A 3D, browser-based trainer for a household sewing machine. Take the parts on and off, thread it, and sew practice seams, with every step following the Singer M1500 manual.</p>
+              <ul class="points">
+                <li>Seven-step guided threading through every guide, the tension discs, the take-up lever, and the needle</li>
+                <li>Every stitch is drawn on the top and the underside, so tension problems show up like they would in real life</li>
+                <li>Seams are graded, parts come off in the manual's order, and it works on phones and tablets</li>
+              </ul>
+              <div class="gh-thumbs">
+                <a href="assets/img/projects/sewing-workshop/threading.png" data-lightbox="sewing"><img src="assets/img/projects/sewing-workshop/threading.png" alt="Guided threading at the take-up lever" width="1600" height="900" loading="lazy"></a>
+                <a href="assets/img/projects/sewing-workshop/parts.png" data-lightbox="sewing"><img src="assets/img/projects/sewing-workshop/parts.png" alt="Every user part taken off the machine and laid out on the parts tray" width="1600" height="900" loading="lazy"></a>
+              </div>
+              <ul class="tags"><li>JavaScript</li><li>Three.js</li><li>3D</li><li>Trade training</li></ul>
+              <div class="gh-links">
+                <a class="btn btn-primary" href="https://asarabiapersonal.github.io/Sewing-Workshop/" target="_blank" rel="noopener">Launch the simulator <span class="arrow" aria-hidden="true">&#8599;</span></a>
+                <a class="btn" href="https://github.com/asarabiapersonal/Sewing-Workshop">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           PROJECT: Basic Image Recognition Trainer
+           To add another project, copy everything from <article ...> to
+           </article> and paste it below, then change the text.
+           ================================================================ -->
+      <article class="project" id="image-recognition-trainer">
+        <div class="project-head">
+          <span class="badge">In progress</span>
+          <time datetime="2025-11">Started Nov 2025</time>
+        </div>
+        <h2>Basic Image Recognition Trainer</h2>
+        <p class="lede">A convolutional neural network built in PyTorch that learns to tell cats from dogs, with a Streamlit interface for showing the data and running predictions.</p>
+
+        <div class="embed embed-small" style="margin-top:28px">
+          <iframe src="https://www.youtube-nocookie.com/embed/51FIJ_pHA_Q" title="Basic Image Recognition Trainer demo" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="project-layout">
+          <div>
+            <h3>What it does</h3>
+            <p>The model trains on labeled photos and then predicts which category a new image belongs to. Right now it sorts cats from dogs, and it was trained on 20,000 cat images and 20,000 dog images. The network itself isn't tied to cats and dogs: it can learn to sort any objects, as long as the training data is formatted correctly.</p>
+
+            <h3>How it's built</h3>
+            <ul>
+              <li>Images are read as three color values per pixel (0–255) and normalized before training.</li>
+              <li>The model is a small CNN: two convolution layers, each followed by ReLU and max pooling, then flattened into the classifier.</li>
+              <li>Training runs through a standard PyTorch loop of forward pass, loss, backpropagation, and optimizer step, followed by a validation pass against test data.</li>
+              <li>Average loss is recorded during training and plotted, so you can watch the model improve.</li>
+              <li>Settings like learning rate, batch size, epochs, data folders, and device (CPU/GPU) live in one config file.</li>
+              <li>Streamlit provides the interface and charts.</li>
+            </ul>
+
+            <div class="figures">
+              <figure>
+                <a href="assets/img/projects/image-classifier/whiteboard.jpg" data-lightbox="classifier">
+                  <img src="assets/img/projects/image-classifier/whiteboard.jpg" alt="Whiteboard notes planning the model: binary classification, pixel normalization, conv and max-pool layers, and the training and validation loops" width="293" height="391" loading="lazy">
+                </a>
+                <figcaption>Planning the model and training steps on the whiteboard.</figcaption>
+              </figure>
+              <figure>
+                <a href="assets/img/projects/image-classifier/training-code.png" data-lightbox="classifier">
+                  <img src="assets/img/projects/image-classifier/training-code.png" alt="The PyTorch training loop in VS Code" width="495" height="341" loading="lazy">
+                </a>
+                <figcaption>The training loop, with loss tracked for the chart.</figcaption>
+              </figure>
+            </div>
+
+            <h3>What's next</h3>
+            <p>Make training more generic, so it works with other image sets and any number of categories, not just two.</p>
+
+            <p class="note">Follow along: <a href="blog.html#machine-learning-learning">Machine learning… learning</a> and <a href="blog.html#basic-features-of-image-recognition">Basic features of image recognition</a>.</p>
+          </div>
+
+          <aside>
+            <div class="aside-box">
+              <dl>
+                <dt>Status</dt>
+                <dd>Working prototype</dd>
+                <dt>Built with</dt>
+                <dd>
+                  <ul class="tags">
+                    <li>Python</li><li>PyTorch</li><li>Streamlit</li><li>CNN</li>
+                  </ul>
+                </dd>
+                <dt>Dataset</dt>
+                <dd>40,000 images<br><span class="muted">20k cats · 20k dogs</span></dd>
+              </dl>
+              <div class="aside-links">
+                <a class="btn btn-primary" href="https://github.com/asarabiapersonal/General-Image-Recognition-Trainer">View the code</a>
+                <!-- When there's a live demo, uncomment this and paste the URL in.
+                <a class="btn" href="https://YOUR-APP.streamlit.app">Try the live demo</a>
+                -->
+              </div>
+            </div>
+          </aside>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span id="year">2026</span> Adam Sarabia</span>
+      <nav aria-label="Footer">
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+        <a href="video.html">Video</a>
+        <a href="music.html">Music</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>
